@@ -1,6 +1,6 @@
-# Anonymous Submission for [Conference Name]
+# Anonymous Submission for [Interspeech 2025]
 
-This repository contains the source code for our submission to [Conference Name] 2025. The implementation is anonymized to comply with the double-blind review process.
+This repository contains the source code for our submission to Interspeech 2025. The implementation is anonymized to comply with the double-blind review process.
 
 ## Overview
 
@@ -32,31 +32,19 @@ ct2-transformers-converter --model models/whisper-large-v2-finetune --output_dir
 python infer_ct2.py --input example.wav --output output.wav
 
 ## Submissions Results
-\begin{table}[th]
-  \caption{Results of Submissions from the witty Team}
-  \label{tab:example}
-  \centering
-  \resizebox{\columnwidth}{!}{ % 缩放表格宽度为单栏宽度，高度按比例调整
-  \begin{tabular}{llllll}
-    \toprule
-    \multirow{2}{*}{\textbf{Method}}          & \multicolumn{2}{c}{\textbf{Test 1}} & \multicolumn{2}{c}{\textbf{SAP-Dev}} & \multirow{2}{*}{\textbf{Submitted at}} \\
-                                 & WER        & SemScore      & WER    & SemScore    &              \\
-    \midrule
-step0 finetune                   & 10.02      & 87.38         &         &     & 2025-01-13   \\
-+deduplication                   & 9.92       & 87.99         &         &     & 2025-01-19   \\
-+increase volumn                 & 8.75       & 88.81         &         &     & 2025-01-24   \\
-\>norm volumn                     & 8.69       & 88.93         &         &     & 2025-01-25   \\
-all norm volumn                  & 8.48       & 89.38         &         &     & 2025-01-27   \\
-step1 finetune             & 8.13       & 89.88         &         &     & 2025-01-31   \\
-+ error correlation              & 8.09       & 90.17         &         &     & 2025-02-01   \\
-step2 finetune & 7.98       & 90.37         &         &     & 2025-02-02   \\
-    \bottomrule
-  \end{tabular}
-  }
-  
-\end{table}
 
+Results of Submissions from the witty Team
 
+| **Method**                 | **Test 1 WER** | **Test 1 SemScore** | **SAP-Dev WER** | **SAP-Dev SemScore** | **Submitted at** |
+|----------------------------|---------------|---------------------|-----------------|---------------------|----------------|
+| step0 finetune             | 10.02         | 87.38               |                 |                     | 2025-01-13     |
+| +deduplication             | 9.92          | 87.99               |                 |                     | 2025-01-19     |
+| +increase volume           | 8.75          | 88.81               |                 |                     | 2025-01-24     |
+| >norm volume               | 8.69          | 88.93               |                 |                     | 2025-01-25     |
+| all norm volume            | 8.48          | 89.38               |                 |                     | 2025-01-27     |
+| step1 finetune             | 8.13          | 89.88               |                 |                     | 2025-01-31     |
+| +error correlation         | 8.09          | 90.17               |                 |                     | 2025-02-01     |
+| step2 finetune             | 7.98          | 90.37               |                 |                     | 2025-02-02     |
 
 ## Contact
 
