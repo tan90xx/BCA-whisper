@@ -10,26 +10,33 @@ This work focuses on DSR (Dysarthric Speech Recognition). We provide the trainin
 
 Ensure you have the following dependencies installed:
 
+```
 pip install -r requirements.txt
+```
 
 ## Training
 
 To train the model, use the following command:
+```
 mv dataset ./whisper-finetune
 cd whisper-finetune
 python finetune.py # for Single-GPU
 python torchrun --nproc_per_node=4 finetune.py # for Multi-GPU
+```
 
 ## Merge model
 
+```
 python merge_lora.py
+```
 
 ## Ctranslate2 Inference
 
 To run inference faster on a sample:
-
+```
 ct2-transformers-converter --model models/whisper-large-v2-finetune --output_dir models/whisper-large-v2-finetune-ct2 --copy_files tokenizer.json preprocessor_config.json --quantization float16
 python infer_ct2.py --input example.wav --output output.wav
+```
 
 ## Submissions Results
 
