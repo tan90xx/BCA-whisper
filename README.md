@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ## Training
 
 To train the model, use the following command:
-
+mv dataset ./whisper-finetune
 cd whisper-finetune
 python finetune.py # for Single-GPU
 python torchrun --nproc_per_node=4 finetune.py # for Multi-GPU
