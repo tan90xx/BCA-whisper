@@ -1,3 +1,0 @@
-whisperx
-numpy==1.23.4
-tqdm
