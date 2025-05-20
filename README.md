@@ -1,10 +1,10 @@
-# Anonymous Submission for [Interspeech 2025]
+# BCA-Whisper
 
-This repository contains the source code for our submission to Interspeech 2025. The implementation is anonymized to comply with the double-blind review process.
+This repository contains the official implementation of our Interspeech 2025 paper: "BCA-Whisper: Curriculum Learning-Based AdaLoRA Fine-Tuning on Whisper for Low-Resource Dysarthric Speech Recognition".
 
 ## Overview
 
-This work focuses on DSR (Dysarthric Speech Recognition). We provide the training and inference scripts, along with instructions for reproducibility.
+This work focuses on DSR (Dysarthric Speech Recognition). We provide the training and inference scripts, along with instructions for reproducibility. For detailed methodology and experiments, please refer to our [solution PDF](https://github.com/tan90xx/BCA-Whisper/blob/main/resources/technical_solution.pdf).
 
 ## Dependencies
 
@@ -53,6 +53,10 @@ Results of Submissions from the witty Team
 | +error correlation         | 8.09          | 90.17               | 2025-02-01     |
 | step2 finetune             | 7.98          | 90.37               | 2025-02-02     |
 
-## Contact
+## Credits
 
-For questions, please refer to the conference submission system for anonymous discussions.
+We gratefully acknowledge the following resources and contributions that made this project possible:<br>
+[OpenAI Whisper](https://github.com/openai/whisper) and [WhisperX](https://github.com/m-bain/whisperX): Base speech recognition model architecture.<br>
+[Whisper Finetune](https://github.com/yeyupiaoling/Whisper-Finetune): Adaptive Low-Rank Adaptation method for parameter-efficient fine-tuning.<br>
+The SAPC Team: For hosting the [competition/evaluation](https://github.com/xiuwenz2/SAPC-template) platform and providing carefully annotated dysarthric speech [dataset](https://speechaccessibilityproject.beckman.illinois.edu/conduct-research-through-the-project).<br>
+Anonymous Reviewers: For their constructive feedback.
