@@ -1,12 +1,12 @@
-# BCA-Whisper
+# CBA-Whisper
 
-This repository contains the official implementation of our Interspeech 2025 paper: "BCA-Whisper: Curriculum Learning-Based AdaLoRA Fine-Tuning on Whisper for Low-Resource Dysarthric Speech Recognition".
-![Inference and Training Strateges](https://github.com/tan90xx/BCA-whisper/blob/main/resources/system_diagram.png)
+This repository contains the official implementation of our Interspeech 2025 paper: "CBA-Whisper: Curriculum Learning-Based AdaLoRA Fine-Tuning on Whisper for Low-Resource Dysarthric Speech Recognition".
+![Inference and Training Strateges](https://github.com/tan90xx/CBA-Whisper/blob/main/resources/system_diagram.png)
 *▲ Figure 1. Inference and training strategies of BCA-Whisper*  
 
 ## Overview
 
-This work focuses on DSR (Dysarthric Speech Recognition). We provide the training and inference scripts, along with instructions for reproducibility. For detailed methodology and experiments, please refer to our [solution PDF](https://github.com/tan90xx/BCA-Whisper/blob/main/resources/technical_solution.pdf).
+This work focuses on DSR (Dysarthric Speech Recognition). We provide the training and inference scripts, along with instructions for reproducibility. For detailed methodology and experiments, please refer to our [solution PDF](https://github.com/tan90xx/CBA-Whisper/blob/main/resources/technical_solution.pdf).
 
 ## Dependencies
 
