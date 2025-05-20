@@ -1,6 +1,8 @@
 # BCA-Whisper
 
 This repository contains the official implementation of our Interspeech 2025 paper: "BCA-Whisper: Curriculum Learning-Based AdaLoRA Fine-Tuning on Whisper for Low-Resource Dysarthric Speech Recognition".
+![Inference and Training Strateges](https://github.com/tan90xx/BCA-whisper/blob/main/resources/system_diagram.png)
+*▲ Figure 1. Inference and training strategies of BCA-Whisper*  
 
 ## Overview
 
@@ -56,7 +58,7 @@ Results of Submissions from the witty Team
 ## Credits
 
 We gratefully acknowledge the following resources and contributions that made this project possible:<br>
-[OpenAI Whisper](https://github.com/openai/whisper) and [WhisperX](https://github.com/m-bain/whisperX): Base speech recognition model architecture.<br>
-[Whisper Finetune](https://github.com/yeyupiaoling/Whisper-Finetune): Adaptive Low-Rank Adaptation method for parameter-efficient fine-tuning.<br>
-The SAPC Team: For hosting the [competition/evaluation](https://github.com/xiuwenz2/SAPC-template) platform and providing carefully annotated dysarthric speech [dataset](https://speechaccessibilityproject.beckman.illinois.edu/conduct-research-through-the-project).<br>
-Anonymous Reviewers: For their constructive feedback.
+- [OpenAI Whisper](https://github.com/openai/whisper) and [WhisperX](https://github.com/m-bain/whisperX): Base speech recognition model architecture.<br>
+- [Whisper Finetune](https://github.com/yeyupiaoling/Whisper-Finetune): Adaptive Low-Rank Adaptation method for parameter-efficient fine-tuning.<br>
+- The SAPC Team: For hosting the [competition/evaluation](https://github.com/xiuwenz2/SAPC-template) platform and providing carefully annotated dysarthric speech [dataset](https://speechaccessibilityproject.beckman.illinois.edu/conduct-research-through-the-project).<br>
+- Anonymous Reviewers: For their constructive feedback.
