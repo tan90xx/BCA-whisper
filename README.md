@@ -1,6 +1,6 @@
 # CBA-Whisper
 
-This repository contains the official implementation of our Interspeech 2025 paper: "CBA-Whisper: Curriculum Learning-Based AdaLoRA Fine-Tuning on Whisper for Low-Resource Dysarthric Speech Recognition".
+This repository contains the official implementation of our Interspeech 2025 paper: "[CBA-Whisper: Curriculum Learning-Based AdaLoRA Fine-Tuning on Whisper for Low-Resource Dysarthric Speech Recognition](https://www.isca-archive.org/interspeech_2025/tan25b_interspeech.html)".
 ![Inference and Training Strateges](https://github.com/tan90xx/CBA-Whisper/blob/main/resources/system_diagram.png)
 *▲ Figure 1. Inference and training strategies of BCA-Whisper*  
 
